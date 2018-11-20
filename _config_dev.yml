@@ -2,13 +2,14 @@ title: Bolaji Ayodeji
 email: mailtobolaji@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I build and deploy softwares with great focus on stunning user interface, design, optimization and security.
-baseurl: '' # the subpath of your site, e.g. /blog
-url: ''
+baseurl: '/startjekyll' # the subpath of your site, e.g. /blog
+url: 'https://bolajiayodeji.github.io'
 twitter_username: iambolajiayo
 github_username: bolajiayodeji
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
