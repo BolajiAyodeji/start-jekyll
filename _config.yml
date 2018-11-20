@@ -7,11 +7,9 @@ url: 'http://bolajiayodeji.github.io/startjekyll'
 twitter_username: iambolajiayo
 github_username: bolajiayodeji
 
-# Build settings
+# Build Settings
 sass:
   sass_dir: _sass
 include: ['_pages']
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+kramdown:
+  input: GFM
