@@ -8,6 +8,9 @@ twitter_username: iambolajiayo
 github_username: bolajiayodeji
 
 # Build settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
 markdown: kramdown
 theme: minima
 plugins:
